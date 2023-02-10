@@ -1,0 +1,86 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+  body, html{
+   font-family: poppins, roboto;
+   margin: 10;
+   padding:0;
+ }
+
+.logo{
+   height: 100px;
+   width: 70px;
+}
+
+
+.user{
+   height: 50px;
+   width:50px;
+   border-radius: 100%;
+}
+
+
+.navbar{
+   width: 100%;
+   display: flex;
+   justify-content: space-between;
+   padding-left: 16px;
+   padding-right: 16px;
+
+}
+.title1{
+    margin-bottom: 15px;
+}
+.fanny{
+    height: 30px;
+     width:30px;
+   border-radius: 100%;
+}
+.pauline{
+    height: 30px;
+     width:30px;
+   border-radius: 100%;
+}
+.camille{
+    height: 30px;
+     width:30px;
+   border-radius: 100%;
+}
+.option{
+    width: 308px;
+    height: 50px;
+    border-radius: 5px;
+    border-color: #6A6A6A;
+    background-color: white;
+}
+.title2{
+    margin-top: 45px;
+    margin-bottom: 15px;
+}
+.plus{
+    width: 53px;
+    height: 50px;
+    border-radius: 5px;
+    border-color: transparent;
+    background-color: #EEEEEE;
+
+}
+.choix{
+    color: #6A6A6A;
+    border-color: #6A6A6A;
+    background-color: white;
+    border-radius: 5px;
+    width: 364px;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 25px;
+}
+.title3{
+    font-weight: 600;
+}
+.liste{
+    color: #6A6A6A;
+}
+
