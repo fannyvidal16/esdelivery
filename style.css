@@ -107,19 +107,138 @@
     display: flex;
     flex-direction: column;
     margin:15px ;
+    z-index: 1;
     border-radius: 5px;
-   filter: contrast(0.5)
+    filter: brightness(85%);
+
 }
 
-.text-hover{
-    position: absolute;
-    left: 50%;
-    top:50%;
-}
 .title4{
     margin-top: 50px;
 }
 .tab{
     display: flex;
     justify-content: center;
+}
+.plats{
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    margin:15px ;
+}
+.burger{
+    background-image: url("./img/burger1.jpg");
+    background-color: #434343;
+    background-blend-mode: screen;
+    width: 170px;
+    height: 98px;
+    background-size: 100%;
+    border-radius: 5px;
+    margin-bottom: 18px;
+    margin-right: 9px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.burger>span{
+    color: white;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.couscous{
+    background-image: url("./img/couscous1.jpg");
+    background-color: #434343;
+    background-blend-mode: screen;
+    width: 170px;
+    height: 98px;
+    background-size: 100%;
+    border-radius: 5px; 
+    margin-bottom: 18px;
+    margin-right: 9px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.couscous>span{
+    color: white;
+    font-weight: 600;
+    font-size: 20px;
+}
+.pizza{
+    background-image: url("./img/pizza1.jpg");
+    background-color: #434343;
+    background-blend-mode: screen;
+    width: 170px;
+    height: 98px;
+    background-size: 100%;
+    border-radius: 5px; 
+    margin-bottom: 18px;
+    margin-right: 9px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.pizza>span{
+    color: white;
+    font-weight: 600;
+    font-size: 20px;
+}
+.sushi{
+    background-image: url("./img/sushi1.jpg");
+    background-color: #434343;
+    background-blend-mode: screen;
+    width: 170px;
+    height: 98px;
+    background-size: 100%;
+    border-radius: 5px; 
+    margin-bottom: 18px;
+    margin-left: 9px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sushi>span{
+    color: white;
+    font-weight: 600;
+    font-size: 20px;
+}
+.salade{
+    background-image: url("./img/salade1.jpg");
+    background-color: #434343;
+    background-blend-mode: screen;
+    width: 170px;
+    height: 98px;
+    background-size: 100%;
+    border-radius: 5px;
+    margin-bottom: 18px;
+    margin-left: 9px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.salade>span{
+    color: white;
+    font-weight: 600;
+    font-size: 20px;
+}
+.pates{
+    background-image: url("./img/pates1.jpg");
+    background-color: #434343;
+    background-blend-mode: screen;
+    width: 170px;
+    height: 98px;
+    background-size: 100%;
+    border-radius: 5px;
+    margin-bottom: 18px;
+    margin-left: 9px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pates>span{
+    color: white;
+    font-weight: 600;
+    font-size: 20px;
 }
